@@ -1,6 +1,49 @@
 <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
 </head>
 <div class="container">
-    <app-hero></app-hero>
+    <div class="st-container">
+
+        <input type="radio" name="radio-set" checked="checked" id="st-control-1"/>
+        <a href="#st-panel-1">Home</a>
+
+        <input type="radio" name="radio-set" id="st-control-2"/>
+        <a href="#st-panel-2">Skills and Education</a>
+
+        <input type="radio" name="radio-set" id="st-control-3"/>
+        <a href="#st-panel-3">Projects</a>
+
+        <input type="radio" name="radio-set" id="st-control-4"/>
+        <a href="#st-panel-4">Testimonials</a>
+
+        <input type="radio" name="radio-set" id="st-control-5"/>
+        <a href="#st-panel-5">Contact</a>
+
+        <div class="st-scroll">
+
+            <section class="st-panel" id="st-panel-1">
+                <app-hero></app-hero>
+            </section>
+
+            <section class="st-panel st-color" id="st-panel-2">
+                <app-skills></app-skills>
+            </section>
+
+            <section class="st-panel st-color" id="st-panel-3">
+                <app-projects></app-projects>
+            </section>
+
+            <section class="st-panel st-color" id="st-panel-4">
+                <app-testimonials></app-testimonials>
+            </section>
+
+            <section class="st-panel st-color" id="st-panel-5">
+                <app-contact></app-contact>
+            </section>
+
+        </div>
+
+    </div>
 </div>
+
