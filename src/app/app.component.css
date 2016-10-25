@@ -23,6 +23,7 @@
 .st-container > input {
 	opacity: 0;
 	z-index: 1000;
+  display: block !important;
 }
 
 .st-container > a {
@@ -253,6 +254,8 @@
 .st-color p {
 	color: rgba(255,255,255,0.8);
 }
+
+/*** Mobile Stuff ***/
 
 @media screen and (max-width: 520px) {
 	.st-panel h2 {
