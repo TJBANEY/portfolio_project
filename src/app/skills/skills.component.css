@@ -1,0 +1,7 @@
+#st-control-1:checked ~ .st-scroll #st-panel-1 h1,
+#st-control-2:checked ~ .st-scroll #st-panel-2 h1,
+#st-control-3:checked ~ .st-scroll #st-panel-3 h1,
+#st-control-4:checked ~ .st-scroll #st-panel-4 h1,
+#st-control-5:checked ~ .st-scroll #st-panel-5 h1{
+	animation: moveDown 0.6s ease-in-out 0.2s backwards;
+}

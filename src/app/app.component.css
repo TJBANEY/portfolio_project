@@ -149,6 +149,10 @@
 	transform: translateY(-50%) rotate(45deg);
 }
 
+#st-panel-2 {
+  background-image: url('/assets/images/full-chalkboard.png') !important;
+}
+
 [data-icon]:after {
     content: attr(data-icon);
     font-family: 'RaphaelIcons';
