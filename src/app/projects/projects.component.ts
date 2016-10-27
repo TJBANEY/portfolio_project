@@ -6,8 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./projects.component.css']
 })
 export class ProjectsComponent implements OnInit {
+  fullBeachImagePath: string;
 
-  constructor() { }
+  constructor() {
+    this.fullBeachImagePath = '/assets/images/cleanbeachbg.png'
+  }
 
   ngOnInit() {
   }

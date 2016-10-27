@@ -145,7 +145,6 @@
 	top: 0px;
 	left: 50%;
 	margin-left: -100px;
-	background: #fa96b5;
 	transform: translateY(-50%) rotate(45deg);
 }
 
@@ -243,14 +242,11 @@
 
 .st-color,
 .st-deco{
-	background: #fa96b5;
 }
+
 .st-color [data-icon]:after {
-	color: #fa96b5;
 }
-.st-color .st-deco {
-	background: #fff;
-}
+
 .st-color h2 {
 	color: #fff;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);

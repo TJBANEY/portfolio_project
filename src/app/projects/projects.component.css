@@ -1,0 +1,101 @@
+.products-section {
+  height: 800px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0px;
+}
+
+.cruise-ship {
+  position: absolute;
+  top: 452px;
+  left: -500px;
+  animation: sailOn 70s linear infinite;
+}
+
+.testimonials-arrow {
+  border: solid transparent;
+  content: '';
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-top-color: #021c3a;
+  border-width: 35px;
+  bottom: -75px;
+  left: 20px;
+  animation: arrowForward 70s linear infinite;
+}
+
+.beach-sand {
+  position: absolute;
+  bottom: 0px;
+  animation: waves 40s infinite;
+}
+
+@-webkit-keyframes sailOn {
+  from {
+    left: -500px;
+  }
+
+  to {
+    left: 1600px;
+  }
+}
+
+@-webkit-keyframes arrowForward {
+  from {
+    left: 20px;
+  }
+
+  to {
+    left: 1100px;
+  }
+}
+
+@-webkit-keyframes waves {
+  0% {
+    bottom: 60px;
+  }
+
+  10% {
+    bottom: 0px;
+  }
+
+  20% {
+    bottom: 60px;
+  }
+
+  30% {
+    bottom: 0px;
+  }
+
+  40% {
+    bottom: 60px;
+  }
+
+  50% {
+    bottom: 0px;
+  }
+
+  60% {
+    bottom: 60px;
+  }
+
+  70% {
+    bottom: 0px;
+  }
+
+  80% {
+    bottom: 60px;
+  }
+
+  90% {
+    bottom: 0px;
+  }
+
+  100% {
+    bottom: 60px;
+  }
+}
