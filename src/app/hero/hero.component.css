@@ -80,6 +80,50 @@
   animation-delay:4.9s;
 }
 
+.orange {
+  top:130px;
+  left:800px;
+  background: white;
+  animation-delay:1.6s;
+}
+.orange:after {
+  border-color:transparent transparent transparent white ;
+  animation-delay:1.6s;
+}
+
+.purple {
+  top:120px;
+  left:1000px;
+  background: white;
+  animation-delay:2.9s;
+}
+.purple:after {
+  border-color:transparent transparent transparent white ;
+  animation-delay:2.9s;
+}
+
+.green {
+  top:70px;
+  left:950px;
+  background: white ;
+  animation-delay:4.1s;
+}
+.green:after {
+  border-color:transparent transparent transparent white;
+  animation-delay:4.1s;
+}
+
+.brown {
+  top:50px;
+  left:1150px;
+  background: white;
+  animation-delay:5.4s;
+}
+.brown:after {
+  border-color:transparent transparent transparent white;
+  animation-delay:5.4s;
+}
+
 @-webkit-keyframes shooting-ani {
   0% {
 
