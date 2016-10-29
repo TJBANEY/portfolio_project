@@ -1,86 +1,118 @@
-#st-control-1:checked ~ .st-scroll #st-panel-1 h1,
-#st-control-2:checked ~ .st-scroll #st-panel-2 h1,
-#st-control-3:checked ~ .st-scroll #st-panel-3 h1,
-#st-control-4:checked ~ .st-scroll #st-panel-4 h1,
-#st-control-5:checked ~ .st-scroll #st-panel-5 h1{
-	animation: moveDown 0.6s ease-in-out 0.2s backwards;
-}
-
 .skill {
   float: left;
   cursor: pointer;
 }
 
 #python, #node, #django, #angular2 {
-  margin-right: 100px;
+  margin-right: 7%;
   margin-top: 30px;
 }
 
 #responsive {
-  margin-right: 70px;
+  margin-right: 4%;
   margin-top: 30px;
 }
 
 #basics, #bootstrap, #bower, #treehouse {
-  margin-right: 118px;
+  margin-right: 5%;
 }
 
 #phoenix {
-  margin-right: 56px;
+  margin-right: 4%;
 }
 
 #basics {
-  margin-left: 60px;
+  margin-left: 4%;
 }
 
 #bootstrap {
-  height: 180px;
+  /*height: 180px;*/
 }
 
 #basics, #bootstrap {
-  width: 180px;
+  width: 15%;
 }
 
 #basics, #bower {
-  height: 160px;
+  /*height: 160px;*/
 }
 
 #bower, #treehouse, #phoenix {
-  width: 160px;
+  width: 13.5%
 }
 
 #treehouse, #phoenix {
-  height: 170px;
+  /*height: 170px;*/
 }
 
 #python, #node, #django, #angular2 {
-  height: 110px;
+  /*height: 110px;*/
 }
 
 #responsive {
-  height: 160px;
+  /*height: 160px;*/
 }
 
 #python, #angular2 {
-  width: 110px;
+  width: 7.5%
 }
 
 #python {
-  margin-left: 70px;
+  margin-left: 4%;
 }
 
 #node {
-  width: 190px;
+  width: 13%
 }
 
 #django {
-  width: 330px;
+  width: 23%
 }
 
 #responsive {
-  width: 160px;
+  width: 11%
 }
 
 .skill img {
   width: 100%;
+}
+
+.content-container-2 {
+  padding: 0 25%;
+  margin-top: 1%;
+}
+
+@media (max-width: 992px){
+  .content-container-2 {
+    padding: 0 20%;
+    margin-top: 2%;
+  }
+}
+
+@media (max-width: 777px){
+  .content-container-2 {
+    padding: 0 15%;
+    margin-top: 7%;
+  }
+}
+
+@media (max-width: 540px) {
+  .content-container-2 {
+    padding: 0 10%;
+    margin-top: 15%;
+  }
+}
+
+@media (max-width: 400px) {
+  .content-container-2 {
+    padding: 0 7%;
+    margin-top: 30%;
+  }
+}
+
+@media (max-width: 300px) {
+  .content-container-2 {
+    padding: 0 5%;
+    margin-top: 35%;
+  }
 }
