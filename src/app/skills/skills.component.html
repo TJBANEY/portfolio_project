@@ -4,41 +4,43 @@
             <img src="/assets/images/chalkboard-title.png" alt="" style="display: block; margin: 0 auto;">
         </div>
     </div>
-    <div class="col-xs-12" style="display: block; margin: 0 auto;;">
-        <div style="width: 110px; height: 110px; float: left; margin-right: 100px; margin-top: 30px;margin-left: 40px; cursor: pointer;">
-            <img src="/assets/images/chalkboard-python.png" alt="" style="width: 100%;">
+    <div style="display: block; margin: 0 auto; float: left;">
+        <div class="skill" id="python" (click)="showSkillInfo('python')">
+            <img src="/assets/images/chalkboard-python.png" alt="">
         </div>
-        <div style="width: 190px; height: 110px; float: left; margin-right: 100px;margin-top: 30px; cursor: pointer;">
-            <img src="/assets/images/chalkboard-node.png" alt="" style="width: 100%;">
+        <div class="skill" id="node" (click)="showSkillInfo('node')">
+            <img src="/assets/images/chalkboard-node.png" alt="">
         </div>
-        <div style="width: 110px; height: 110px; float: left; margin-right: 100px;margin-top: 30px; cursor: pointer;">
-            <img src="/assets/images/chalkboard-angular2.png" alt="" style="width: 100%;">
+        <div class="skill" id="angular2" (click)="showSkillInfo('angular2')">
+            <img src="/assets/images/chalkboard-angular2.png" alt="">
         </div>
-        <div style="width: 330px; height: 110px; float: left; margin-right: 100px;margin-top: 30px; cursor: pointer;">
-            <img src="/assets/images/chalkboard-django.png" alt="" style="width: 100%;">
+        <div class="skill" id="django" (click)="showSkillInfo('django')">
+            <img src="/assets/images/chalkboard-django.png" alt="">
         </div>
-        <div style="width: 160px; height: 160px; float: left; margin-right: 100px;margin-top: 30px; cursor: pointer;">
-            <img src="/assets/images/chalkboard-responsive.png" alt="" style="width: 100%;">
+        <div class="skill" id="responsive" (click)="showSkillInfo('responsive')">
+            <img src="/assets/images/chalkboard-responsive.png" alt="">
         </div>
     </div>
-    <div class="chalkboard-content" style="height: 500px;">
-
+    <div class="chalkboard-content" style="display: block; float: left; height: 320px;">
+        <div style="width: 700px; margin-left: 370px;">
+            <img *ngIf="info" [src]="info" alt="" style="width: 100%;">
+        </div>
     </div>
-    <div class="col-xs-12" style="display: block;">
-        <div style="width: 180px; height: 160px; float:left; margin-right: 112px; margin-left: 40px; cursor: pointer;">
-            <img src="/assets/images/chalkboard-basics.png" alt="" style="width: 100%;">
+    <div style="display: block; float: left;">
+        <div class="skill" id="basics" (click)="showSkillInfo('basics')">
+            <img src="/assets/images/chalkboard-basics.png" alt="">
         </div>
-        <div style="width: 180px; height: 180px; float: left; margin-right: 112px; cursor: pointer;">
-            <img src="/assets/images/chalkboard-bootstrap.png" alt="" style="width: 100%;">
+        <div class="skill" id="bootstrap" (click)="showSkillInfo('bootstrap')">
+            <img src="/assets/images/chalkboard-bootstrap.png" alt="">
         </div>
-        <div style="width: 160px; height: 160px; float: left; margin-right: 112px; cursor: pointer;">
-            <img src="/assets/images/chalkboard-bower.png" alt="" style="width: 100%;">
+        <div class="skill" id="bower" (click)="showSkillInfo('bower')">
+            <img src="/assets/images/chalkboard-bower.png" alt="">
         </div>
-        <div style="width: 160px; height: 170px; float: left; margin-right: 112px; cursor: pointer;">
-            <img src="/assets/images/chalkboard-treehouse.png" alt="" style="width: 100%;">
+        <div class="skill" id="treehouse" (click)="showSkillInfo('treehouse')">
+            <img src="/assets/images/chalkboard-treehouse.png" alt="">
         </div>
-        <div style="width: 160px; height: 170px; float: left; margin-right: 112px; cursor: pointer;">
-            <img src="/assets/images/chalkboard_uni_phoenix.png" alt="" style="width: 100%;">
+        <div class="skill" id="phoenix" (click)="showSkillInfo('phoenix')">
+            <img src="/assets/images/chalkboard_uni_phoenix.png" alt="">
         </div>
     </div>
 </div>

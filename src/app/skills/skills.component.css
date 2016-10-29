@@ -5,3 +5,82 @@
 #st-control-5:checked ~ .st-scroll #st-panel-5 h1{
 	animation: moveDown 0.6s ease-in-out 0.2s backwards;
 }
+
+.skill {
+  float: left;
+  cursor: pointer;
+}
+
+#python, #node, #django, #angular2 {
+  margin-right: 100px;
+  margin-top: 30px;
+}
+
+#responsive {
+  margin-right: 70px;
+  margin-top: 30px;
+}
+
+#basics, #bootstrap, #bower, #treehouse {
+  margin-right: 118px;
+}
+
+#phoenix {
+  margin-right: 56px;
+}
+
+#basics {
+  margin-left: 60px;
+}
+
+#bootstrap {
+  height: 180px;
+}
+
+#basics, #bootstrap {
+  width: 180px;
+}
+
+#basics, #bower {
+  height: 160px;
+}
+
+#bower, #treehouse, #phoenix {
+  width: 160px;
+}
+
+#treehouse, #phoenix {
+  height: 170px;
+}
+
+#python, #node, #django, #angular2 {
+  height: 110px;
+}
+
+#responsive {
+  height: 160px;
+}
+
+#python, #angular2 {
+  width: 110px;
+}
+
+#python {
+  margin-left: 70px;
+}
+
+#node {
+  width: 190px;
+}
+
+#django {
+  width: 330px;
+}
+
+#responsive {
+  width: 160px;
+}
+
+.skill img {
+  width: 100%;
+}
