@@ -52,23 +52,23 @@ svg line.left, svg line.right {
 }
 
 div.box:hover svg line.top {
-  -webkit-transform: translateX(550px);
-  transform: translateX(550px);
+  -webkit-transform: translateX(500px);
+  transform: translateX(500px);
 }
 
 div.box:hover svg line.bottom {
-  -webkit-transform: translateX(-550px);
-  transform: translateX(-550px);
+  -webkit-transform: translateX(-500px);
+  transform: translateX(-500px);
 }
 
 div.box:hover svg line.left {
-  -webkit-transform: translateY(100%);
-  transform: translateY(100%);
+  -webkit-transform: translateY(300px);
+  transform: translateY(300px);
 }
 
 div.box:hover svg line.right {
-  -webkit-transform: translateY(100%);
-  transform: translateY(100%);
+  -webkit-transform: translateY(-300px);
+  transform: translateY(-300px);
 }
 
 @media (max-width: 800px) {
@@ -114,5 +114,23 @@ div.box:hover svg line.right {
   .box1, .box4 {
     margin-right: 0px;
     border: 0px;
+  }
+}
+
+@media (max-width: 360px){
+  div.box {
+    width: 60%;
+    margin-left: 20% !important;
+  }
+
+  .testimonials-section h1 {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 310px){
+  div.box {
+    width: 75%;
+    margin-left: 13% !important;
   }
 }

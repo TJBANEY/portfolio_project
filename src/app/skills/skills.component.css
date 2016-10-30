@@ -99,7 +99,22 @@
 @media (max-width: 540px) {
   .content-container-2 {
     padding: 0 10%;
-    margin-top: 15%;
+    margin-top: 20%;
+  }
+
+  .bottom-skill-container {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 440px){
+  .content-container-2 {
+    padding: 0 7%;
+    margin-top: 25%;
+  }
+
+  .bottom-skill-container {
+    margin-top: 80px;
   }
 }
 
@@ -110,9 +125,9 @@
   }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 320px) {
   .content-container-2 {
     padding: 0 5%;
-    margin-top: 35%;
+    margin-top: 40%;
   }
 }
