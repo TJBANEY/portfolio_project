@@ -105,14 +105,14 @@ div.box:hover svg line.right {
   }
 }
 
-@media (max-width: 500px){
-  .box {
-    border: 0px !important;
-    width: 100% !important;
-    margin: 0px !important;
+@media (max-width: 401px){
+  .box2, .box3 {
+    margin-left: 1% !important;
+    margin-right: 0px;
   }
 
-  svg line {
-    stroke-width: 10;
+  .box1, .box4 {
+    margin-right: 0px;
+    border: 0px;
   }
 }
