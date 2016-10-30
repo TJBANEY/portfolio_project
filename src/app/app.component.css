@@ -180,8 +180,8 @@
 
 /* Colored sections */
 
-.st-color,
-.st-deco {
+.st-color {
+  background-color: #021c3d;
 }
 
 .st-color [data-icon]:after {
