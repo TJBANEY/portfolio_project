@@ -10,7 +10,7 @@ export class HeroComponent implements OnInit {
   fullImagePath: string;
 
   constructor() {
-    this.fullImagePath = 'assets/images/hero-mountains.png'
+    this.fullImagePath = '/static/images/hero-mountains.png'
   }
 
   ngOnInit() {

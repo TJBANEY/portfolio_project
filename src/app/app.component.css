@@ -87,7 +87,7 @@
 }
 
 #st-panel-2 {
-  background-image: url('/assets/images/full-chalkboard.png') !important;
+  background-image: url('/static/images/full-chalkboard.png') !important;
   background-repeat: no-repeat;
   background-size: cover;
 }

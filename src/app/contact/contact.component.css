@@ -24,10 +24,8 @@
 }
 
 .bio-photo {
-  background-color: lightblue;
   display: inline-block;
   width: 26%;
-  height: 26%;
   border-radius: 50%;
   margin-left: 5%;
   float: left;
@@ -50,7 +48,8 @@
 }
 
 .social-icons {
-  text-align: center;
+  text-align: left;
+  margin-left: 520px;
 }
 
 .phone-email {
@@ -78,12 +77,16 @@
   .bio-content {
     font-size: 16px;
   }
+
+  .social-icons {
+    margin: 0px;
+    text-align: center;
+  }
 }
 
 @media (max-width: 830px) {
   .bio-photo {
     width: 28%;
-    height: 26%;
   }
 }
 

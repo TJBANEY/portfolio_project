@@ -9,7 +9,7 @@ export class ProjectsComponent implements OnInit {
   fullBeachImagePath: string;
 
   constructor() {
-    this.fullBeachImagePath = '/assets/images/cleanbeachbg.png'
+    this.fullBeachImagePath = '/static/images/cleanbeachbg.png'
   }
 
   ngOnInit() {

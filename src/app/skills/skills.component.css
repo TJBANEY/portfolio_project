@@ -82,9 +82,18 @@
   margin-top: 1%;
 }
 
+.content-container-2 p {
+  font-family: Chalkduster;
+  color: #f0f0f0;
+  font-size: 28px;
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+
 @media (max-width: 992px){
   .content-container-2 {
-    padding: 0 20%;
+    padding: 0 16%;
     margin-top: 2%;
   }
 }
@@ -98,8 +107,12 @@
 
 @media (max-width: 540px) {
   .content-container-2 {
-    padding: 0 10%;
-    margin-top: 20%;
+    padding: 0 5%;
+    margin-top: 10%;
+  }
+
+  .content-container-2 p {
+    font-size: 25px !important;
   }
 
   .bottom-skill-container {
@@ -110,24 +123,27 @@
 @media (max-width: 440px){
   .content-container-2 {
     padding: 0 7%;
-    margin-top: 25%;
+    margin-top: 8%;
   }
 
   .bottom-skill-container {
-    margin-top: 80px;
+    margin-top: 20px;
   }
 }
 
 @media (max-width: 400px) {
   .content-container-2 {
     padding: 0 7%;
-    margin-top: 30%;
+    margin-top: 10%;
+  }
+
+  .content-container-2 p {
+    font-size: 22px !important;
   }
 }
 
 @media (max-width: 320px) {
   .content-container-2 {
     padding: 0 5%;
-    margin-top: 40%;
   }
 }

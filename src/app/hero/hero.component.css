@@ -1,5 +1,5 @@
 .hero-section {
-  background-image: url("assets/images/starry-night.jpg");
+  background-image: url('/static/images/starry-night.jpg');
   height: 800px;
   background-attachment: fixed;
   background-position: center;
